@@ -1,0 +1,123 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" 
+  href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎯%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+        crossorigin="anonymous">
+    <title>TRuk Music</title>
+</head>
+
+<body>
+    <header>
+      <div class="menu_side">
+        <h1>NikPlay</h1>
+        <div class="playlist">
+          <h4 class="active"><span></span><i class="fa fa-solid fa-music"></i>Playlist</h4>
+          <h4><span></span><i class="fa fa-solid fa-music"></i>Most Played</h4>
+          <h4><span></span><i class="fa fa-solid fa-music"></i>Recently Played</h4>
+        </div>
+        <div class="menu_song">
+          <li class="songItem">
+            <span>01</span>
+            <img src="img/1.jpg" alt="Alan"/>
+            <h5>
+              On My Way<br>
+              <div class="subtitle">Alan Walker</div>
+            </h5>
+            <i class="fa playlistPlay fa-regular fa-play" id="1"></i> 
+          </li>   
+          <li class="songItem">
+            <span>02</span>
+            <img src="img/2.jpg" alt="AP Dillon"/>
+            <h5>With You <br>
+              <div class="subtitle">AP Dillon</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="2"></i>
+          </li>
+          <li class="songItem">
+            <span>03</span>
+            <img src="img/3.jpg" alt="Arijit"/>
+            <h5>Dil Jhoom<br>
+              <div class="subtitle">Arijit Singh</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="3"></i>
+          </li>
+          <li class="songItem">
+            <span>04</span>
+            <img src="img/4.jpg" alt="AP Dillon"/>
+            <h5>Dil Nu<br>
+              <div class="subtitle">AP Dillon</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="4"></i>
+          </li>
+          <li class="songItem">
+            <span>05</span>
+            <img src="img/5.jpg" alt="Nango Gaun"/>
+            <h5>Suna Suna Sundari ( सुन सुन सुन्दरी )<br>
+              <div class="subtitle">Dayahang Rai, Miruna Magar</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="5"></i>
+          </li>
+          <li class="songItem">
+            <span>06</span>
+            <img src="img/6.jpg" alt="Rahul"/>
+            <h5>Prem Kahani<br>
+              <div class="subtitle">Rahul Vaidya</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="6"></i>
+          </li>
+          <li class="songItem">
+            <span>07</span>
+            <img src="img/7.jpg" alt="Rahul"/>
+            <h5>Prem Kahani<br>
+              <div class="subtitle">Rahul Vaidya</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="7"></i>
+          </li>
+          <li class="songItem">
+            <span>08</span>
+            <img src="img/8.jpg" alt="Rahul"/>
+            <h5>Prem Kahani<br>
+              <div class="subtitle">Rahul Vaidya</div>
+            </h5>  
+            <i class="fa playlistPlay fa-regular fa-play" id="8"></i>
+          </li>
+        </div>
+      </div>
+
+
+    <div class="song_side"></div>
+
+    <div class="main_play">
+        <div class="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="img/8.jpg" alt="" id="poster_main_play">
+        <h5 id="title">Prem Kahani<br>
+          <div class="subtitle">Rahul Vaidiya</div>
+        </h5>
+        <div class="icon">
+          <i class="fa shuffle fa-solid fa-music"></i>
+          <i class="fa fa-regular fa-backward"></i>
+          <i class="fa fa-regular fa-play"></i>
+          <i class="fa fa-regular fa-forward"></i>
+          <i class="fa fa-regular fa-download" id="download_music"></i>
+        </div>
+        <span id="starter">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" max="0" max="100">
+        </div>
+      </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
